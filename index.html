@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="mainTitle">Rock Paper Scissors Game!</h1>
+  </header>
+  <main class="main">
+
+    <section class="js-game game">
+      <h2 class="secondTitle">Enter your move here:</h2>
+      <form action="" class="form">
+        <select class="selectOption js-selectOption" name="selectOption" id="selectOption">
+          <!-- <option value="" disabled selected>Seleccione su jugada</option> -->
+          <option value="piedra">Rock</option>
+          <option value="papel">Paper</option>
+          <option value="tijera">Scissors</option>
+        </select>
+        <input type="submit" class="btnPlay js-btnPlay" value="Play">
+      </form>
+      <h3 class="littleTitle js-littleTitle">Let's Play!</h3>
+      <p class="player js-player"> Player: 0</p>
+      <p class="cpu js-cpu"> CPU: 0</p>
+      <p class="totalTies js-totalTies">Ties: 0</p>
+      <p class="totalRounds js-totalRounds">Rounds: 0</p>
+      <img src="./images/rock-paper-scissors.jpg" alt="Selección de jugada" class="imgOption js-imgOption">
+      <button class="resetBtn  js-resetBtn hidden">Reset game</button>
+    </section>
+
+    <section class="js-results results">
+      <figure class="highcharts-figure">
+        <div id="container"></div>
+
+      </figure>
+
+    </section>
+  </main>
+  <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
