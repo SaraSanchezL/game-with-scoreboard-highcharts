@@ -1,14 +1,16 @@
-# Rock Paper Scissors Game, made with JavaScript. Add scoreboard made with Highcharts.
+# Rock Paper Scissors Game, made with JavaScript. Add scoreboard made with Highcharts 📊.
+
+<div align="center"> <img src="/images/preview.png" width="400px"</img> </div>
 
 - <a href="https://github.com/SaraSanchezL/rock-paper-scissors-game">Original Repo</a>
-- <a href="https://www.highcharts.com/">HighCharts</a>
+- <a href="https://www.highcharts.com/">Highcharts</a>
 
-The exercise consists of developing the game "Rock, Paper and Scissors". In the game both players have to
+The project consists of developing the game "Rock, Paper and Scissors". In the game both players have to
 choose rock, paper or scissors. It only has two possible outcomes: a tie or a win for a
 player and a loss for the other player. We will design the game using JavaScript where a player
 will play against the computer.
 
-## Description
+## Description 🎮
 
 The program generates a random movement between paper, rock and scissors (the indications to generate the
 random motion are later). Later the user plays, the program compares the
@@ -16,7 +18,7 @@ moves and decides if the user has won, lost or tied against the computer. Also i
 program is counting the number of points of the player and the computer. The game restarts when
 do 10 moves.
 
-## Functionalities JavaScript
+## Functionalities JavaScript 🌟
 
 - Create a minimal layout with the select, the space for the result and the space for the points of each player.
 - Generate a random number with the help of Math.random and Math.ceil.
@@ -33,7 +35,7 @@ do 10 moves.
 - When we click on the Restart Game button, this button disappears, put all the
   counters to zero and the Play button reappears.
 
-## Bonus
+## Bonus *️⃣
 
 - Add a graphic representation for the scoreboard that is updated according to the plays, with total rounds, ties, cpu points and player points. Made with HighCharts.
 - Add styles with CSS.
